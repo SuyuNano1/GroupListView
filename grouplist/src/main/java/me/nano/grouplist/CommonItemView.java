@@ -219,7 +219,7 @@ public class CommonItemView<T extends CommonItemView> implements CommonItemClick
 	}
 	
 	protected <V extends View> V findViewById(int id){
-		return mCommonItemView.findViewById(id);
+		return (V)mCommonItemView.findViewById(id);
 	}
 	
 	protected void setOnClickListener(CommonItemClickListener l){
