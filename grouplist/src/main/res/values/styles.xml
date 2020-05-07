@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 默认的GroupList主题样式，在使用控件时必须使用该样式主题或者该主题的子主题 -->
+    <style name="GroupListTheme">
+		<item name="glv_item_titleStyle">@style/GlvItemTitleStyle</item>
+		<item name="glv_item_subtitleStyle">@style/GlvItemSubtitleStyle</item>
+		<item name="glv_group_titleStyle">@style/GlvGroupTitleStyle</item>
+		<item name="glv_accessory_textStyle">@style/GlvItemSubtitleStyle</item>
+		<item name="glv_icon_size">24dp</item>
+		<item name="glv_icon_tint">#FF363636</item>
+		<item name="glv_icon_marginEnd">8dp</item>
+		<item name="glv_item_paddingLeft">16dp</item>
+		<item name="glv_item_paddingRight" >16dp</item>
+		<item name="glv_item_paddingTop">14dp</item>
+		<item name="glv_item_paddingBottom">14dp</item>
+		
+		<item name="glv_group_space">14dp</item>
+		
+		<item name="glv_group_divider">#FFC9C9C9</item>
+		<item name="glv_group_dividerEnable">false</item>
+		<item name="glv_group_divider_height">1px</item>
+		<item name="glv_group_divider_marginLeft">16dp</item>
+		<item name="glv_group_divider_marginTop">2dp</item>
+		<item name="glv_group_divider_marginRight">16dp</item>
+		<item name="glv_group_divider_marginBottom">2dp</item>	
+		
+		<!-- 默认Item背景的水波纹颜色 -->
+		<item name="glv_item_rippleColor">#C2969696</item>
+		
+		<item name="glv_item_divider">#FFE0E0E0</item>
+		<item name="glv_item_divider_height">1px</item>
+		<item name="glv_item_divider_left">16dp</item>
+		<item name="glv_item_divider_right">16dp</item>
+		
+	</style>
+	
+	<style name="GlvItemTitleStyle">
+		<item name="android:textColor">#FF363636</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="GlvItemSubtitleStyle">
+		<item name="android:textColor">#FF535353</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="GlvGroupTitleStyle">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">#FFC8C8C8</item>
+		<item name="android:paddingLeft">16dp</item>
+		<item name="android:paddingRight">16dp</item>
+		<item name="android:paddingTop">12dp</item>
+		<item name="android:paddingBottom">4dp</item>
+		<item name="android:singleLine">true</item>
+	</style>
+</resources>

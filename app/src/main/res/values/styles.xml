@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+	<style name="MyGlvTheme" parent="GroupListTheme">
+		<item name="glv_group_titleStyle">@style/MyGlvGroupTitleStyle</item>
+		<item name="glv_item_titleStyle">@style/MyGlvItemTitleStyle</item>
+		<item name="glv_item_subtitleStyle">@style/MyGlvItemSubtitleStyle</item>
+		<item name="glv_accessory_textStyle">@style/MyGlvItemSubtitleStyle</item>
+		<item name="glv_item_divider">#FFE4E4E4</item>
+	</style>
+	
+	<style name="MyGlvItemTitleStyle" parent="GlvItemTitleStyle">
+		<item name="android:textColor">#FF333333</item>
+	</style>
+	<style name="MyGlvItemSubtitleStyle" parent="GlvItemSubtitleStyle">
+		<item name="android:textColor">#FFA9A9A9</item>
+	</style>
+	<style name="MyGlvGroupTitleStyle" parent="GlvGroupTitleStyle">
+		<item name="android:background">#ffffff</item>
+		<item name="android:textColor">#FF9F9F9F</item>
+	</style>
+</resources>

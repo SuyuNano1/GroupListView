@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="glv_item_titleStyle" format="reference"/>
+	<attr name="glv_item_subtitleStyle" format="reference"/>
+	<attr name="glv_group_titleStyle" format="reference"/>
+	<attr name="glv_accessory_textStyle" format="reference"/>
+	<attr name="glv_icon_size" format="dimension"/>
+	<attr name="glv_icon_tint" format="color"/>
+	<attr name="glv_icon_marginEnd" format="dimension"/>
+	<attr name="glv_item_paddingLeft" fotmat="dimension"/>
+	<attr name="glv_item_paddingRight" format="dimension"/>
+	<attr name="glv_item_paddingTop" format="dimension"/>
+	<attr name="glv_item_paddingBottom" format="dimension"/>
+		
+	<declare-styleable name="ItemLayout">
+		<!-- 这里的Divider全是指的BottomDivider -->
+		<attr name="glv_item_divider" format="color"/>
+		<attr name="glv_item_divider_height" format="dimension"/>
+		<attr name="glv_item_divider_left" format="dimension"/>
+		<attr name="glv_item_divider_right" format="dimension"/>
+	</declare-styleable>
+		
+	<declare-styleable name="GroupListView">
+		<attr name="glv_item_backgroundColor" format="color"/>
+		<attr name="glv_item_rippleColor" format="color"/>
+		
+		<attr name="glv_group_space" format="dimension"/>
+		<attr name="glv_group_dividerEnable" format="boolean"/>
+		<attr name="glv_group_divider" format="color|reference"/>
+		<attr name="glv_group_divider_height" format="dimension"/>
+		<attr name="glv_group_divider_marginLeft" format="dimension"/>
+		<attr name="glv_group_divider_marginTop" format="dimension"/>
+		<attr name="glv_group_divider_marginRight" format="dimension"/>
+		<attr name="glv_group_divider_marginBottom" format="dimension"/>
+	</declare-styleable>
+</resources>

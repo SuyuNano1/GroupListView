@@ -1,0 +1,46 @@
+<me.nano.grouplist.ItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	android:clickable="true"
+	android:paddingLeft="?attr/glv_item_paddingLeft"
+	android:paddingRight="?attr/glv_item_paddingRight"
+	android:paddingTop="?attr/glv_item_paddingTop"
+	android:paddingBottom="?attr/glv_item_paddingBottom">
+
+	<android.support.v7.widget.AppCompatImageView
+		android:id="@+id/item_common_icon"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"
+		android:layout_width="?attr/glv_icon_size"
+		android:layout_height="?attr/glv_icon_size"
+		android:layout_marginEnd="?attr/glv_icon_marginEnd"
+		android:tint="?attr/glv_icon_tint"/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/item_common_icon">
+		<TextView
+			android:id="@+id/item_common_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="?attr/glv_item_titleStyle"/>
+		<TextView
+			android:id="@+id/item_common_subtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+			style="?attr/glv_item_subtitleStyle"/>
+	</LinearLayout>
+
+	<FrameLayout
+		android:id="@+id/item_common_accessoryView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"/>
+</me.nano.grouplist.ItemLayout>

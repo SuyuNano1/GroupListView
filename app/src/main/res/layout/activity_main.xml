@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	<me.nano.grouplist.GroupListView
+		android:theme="@style/MyGlvTheme"
+		android:id="@+id/activity_main_grouplist"
+		android:background="#FFF5F5F5"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:glv_item_backgroundColor="#ffffff"	
+		app:glv_group_dividerEnable="false"
+		app:glv_group_divider="#FF353535"
+		app:glv_group_divider_height="1dp"
+		app:glv_group_space="15dp"
+		/>
+	</ScrollView>
+</LinearLayout>
